@@ -6,40 +6,35 @@ Contributors:
 
 # Project Title
 <!-- Project Description -->
-This is where you write a sentence or two about what this project is for or does.
+This is where you write a sentence or two about what this project is for or does. Try to answer:
+- what problem does it solve
+- who is it for
+- why does it exist
 
 
-<!-- TABLE OF CONTENTS -->
 ### Contents
-- [Getting Started](#getting-started)
+- [Features](#features)
 
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+## Features
+<!-- 
+Use this section to give a high level overview of how the project works. This should include:
+- What languages, libraries, and frameworks were used.
+- Any dependencies/packages
+- How data flows
+- How the project is configured: e.g. is it behind single sign on, does it use a JSON config file etc...
+-->
 
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`, `project_license`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+### Built With:
+* [Next.js](https://nextjs.org/)
+* [React.js](https://react.dev/)
+* [Laravel](https://laravel.com/)
+* [Bootstrap](https://getbootstrap.com/)
+* [JQuery](https://jquery.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
