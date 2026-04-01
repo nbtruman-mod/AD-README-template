@@ -97,7 +97,7 @@ This is an example of how to list things you need to use the software and how to
    git remote -v # confirm the changes
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+[Back to top](#project-title)
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -118,7 +118,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 See the [open issues](https://github.com/nbtruman-mod/AD-README-template/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+[Back to top](#project-title)
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -131,14 +131,14 @@ If you have a suggestion that would make this better, please fork the repo and c
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+[Back to top](#project-title)
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the project_license. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+[Back to top](#project-title)
 
 <!-- CONTACT -->
 ## Contact
