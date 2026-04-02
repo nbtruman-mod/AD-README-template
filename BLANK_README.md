@@ -9,92 +9,123 @@ This is where you write a sentence or two about what this project is for or does
 - why does it exist
 
 ## Features
-<!-- Outline the high-level user-visible features of the project. This is a good place to talk about something you're really proud of. -->
+<!-- 
+  Outline the high-level user-visible features of the project. 
+  This is a good place to talk about something you're really proud of. 
+-->
 - This template has useful links to take you back to the top!.
 
 ## Technical Overview
 <!-- This section contains all the information about how the system/program/script works -->
 
 ### Built With:
-<!-- Use this space to tell people what technology and tools you used. Examples below. -->
+<!-- 
+  Use this space to tell people what technology and tools you used. 
+  Remove or replace as needed. 
+-->
 * Frontend: React / Vue / Angular (choose what applies)
 * Backend: Node.js / Laravel / .NET (choose what applies)
 * Styling: CSS / Tailwind / Bootstrap
 
 ### Project Structure
 <!--
-Include a high-level overview of the project directory layout.
-Focus on key directories that new developers need to understand.
-Avoid listing every file.
+  Include a high-level overview of the project directory layout.
+  Focus on key directories that new developers need to understand.
+  Avoid listing every file.
 -->
 ```text
-├── app/                    # Application source code
+.
+├── public/                 # Publicly accessible files (web root)
+│   ├── index.php           # Application entry point
+│   ├── assets/             # Images, CSS, JS, fonts
+│   └── uploads/            # User-generated content (if applicable)
 │
-├── Controllers/            # Request handling / routing logic
-│   ├── Models/             # Data access and business logic
-│   └── Services/           # Reusable domain or integration logic
+├── src/                    # Application source code
+│   ├── controllers/        # Request handling / routing logic
+│   ├── models/             # Data and domain logic
+│   ├── services/           # Reusable business or integration logic
+│   └── utils/              # Helper functions and shared utilities
 │
-├── public/                 # Web root (document root)
-│   ├── index.php           # Front controller / entry point
-│   ├── assets/             # Compiled CSS, JS, images
-│   └── uploads/            # User-uploaded files (if applicable)
-│
-├── config/                 # Application configuration
+├── config/                 # Configuration files
 │   ├── app.php
-│   └── database.php
+│   ├── database.php
+│   └── env.example.php
 │
-├── database/               # Database-related files
-│
-├── resources/              # Non-public resources
-│   ├── views/              # Templates (Blade, Twig, PHP, etc.)
-│   └── lang/               # Translations / localisation
-│
-├── routes/                 # Route definitions (if applicable)
-│   └── web.php
-│
-├── storage/                # Logs, cache, generated files
+├── storage/                # Files written at runtime
 │   ├── logs/
-│   └── cache/
+│   ├── cache/
+│   └── tmp/
 │
 ├── tests/                  # Automated tests
-|
-└── README.md
+│
+├── scripts/                # Utility or maintenance scripts
+│
+├── README.md
+└── LICENSE
+
 ```
 [Back to top](#project-title)
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
+<!-- This is an example of how you may give instructions on setting up your project locally. -->
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+<!-- 
+  This section should detail everything required for the system/program/script to run. 
+  Consider a disaster recovery scenario where the code has to run on a machine being set up from scratch. 
+-->
+The following software provides examples of what must be installed on the host machine:
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+- Apache 2.x
+- PHP 7.x
+- MySQL
+- Git
+
+#### PHP Extensions
+<!-- List any extensions your project requires, even if they are enabled by default. -->
+Ensure the following PHP extensions are enabled:
+
+- mysqli/PDO
+- json
+- curl
+- openssl
+- xml
+
+You can check installed extensions with:
+```sh
+php -m
+```
+
+#### Shared Libraries
+<!--
+  Detail any libraries the project requires and where the project expects to find them.
+  If they are internal libraries with a repo we maintain, consider adding a hyperlink to that repo.
+-->
+This project requires:
+
+```text
+├── var/
+│   └── www/
+│       └── html/
+│           └── libraries_php/                 
+│               ├── a_library/         # Does something useful
+│               └── another_library/   # Also does something useful
+```
 
 ### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+<!-- 
+  Provide fool-proof instructions of how to get this repo installed on a target machine. 
+  Consider that it's most likely a repo will be cloned to a VM, then will need to be moved to a web server.
+-->
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/nbtruman-mod/AD-README-template
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
+2. Transfer the folder to a web server with FileZilla
+   ```text
+   /www/var/html/applications/AD-README-template
    ```
 
 [Back to top](#project-title)
@@ -104,9 +135,9 @@ This is an example of how to list things you need to use the software and how to
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Documentation](https://example.com)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+[Back to top](#project-title)
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -133,13 +164,6 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 [Back to top](#project-title)
 
-<!-- LICENSE -->
-## License
-
-Distributed under the project_license. See `LICENSE.txt` for more information.
-
-[Back to top](#project-title)
-
 <!-- CONTACT -->
 ## Contact
 
@@ -147,4 +171,4 @@ Your Name - email@email_client.com
 
 Project Link: [https://github.com/nbtruman-mod/AD-README-template](https://github.com/nbtruman-mod/AD-README-template)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+[Back to top](#project-title)
