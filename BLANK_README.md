@@ -1,4 +1,7 @@
 Contributors:
+<!--
+  List everyone who has contributed to the project.
+-->
 - Example Name [GitHub](https://example.com/) [GitLab](https://example.com/)
 
 # Project Title
@@ -7,6 +10,17 @@ This is where you write a sentence or two about what this project is for or does
 - what problem does it solve
 - who is it for
 - why does it exist
+
+## Documentation
+<!--
+  The suggested best practice is to use a wiki for both technical and non-technical documentation, since a change log is automatically kept as part of the wiki's repo.
+  For desk instructions, it may be preferable to store them in a file within the project's repo so they can be downloaded for reference but changes are still recorded automatically.
+-->
+This section should contain links (or as a minimum, a path) to the project's:
+[Technical Documentation](https://example.com/)
+
+And also any desk instructions, user guides, or other non-technical documentation:
+[Desk Instructions](https://example.com/)
 
 ## Features
 <!-- 
@@ -152,9 +166,13 @@ See the [open issues](https://github.com/nbtruman-mod/AD-README-template/issues)
 [Back to top](#project-title)
 
 <!-- CONTRIBUTING -->
-## Contributing
+## Contributing & Feature Requests
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request.
+### Customers
+If you have a suggestion that would make this better, contact the lead developer below.
+
+### Developers
+Please fork the repo and create a pull request.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -164,11 +182,21 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 [Back to top](#project-title)
 
-<!-- CONTACT -->
-## Contact
 
-Your Name - email@email_client.com
+## Contacts
+<!-- 
+  This section should list the names and contact details of everyone who has authority over the project.
+  This may or may not include the contributors listed at the top.
+  It should absolutely include:
+  - The lead developer
+  - Any other developers who have led on a major release (with details of what features they can answer questions about)
+  - Any digital line management who hold authority to sign off on any part of the project.
+  - Any customers who need to sign off on any significant changes to the project
+-->
+**Lead Developer** - John Smith  
+[john.smith999@mod.gov.uk](mailto:john.smith999@mod.gov.uk)
 
-Project Link: [https://github.com/nbtruman-mod/AD-README-template](https://github.com/nbtruman-mod/AD-README-template)
+**Principle Customer** - Analysis of Stuff & Things  
+[Analysis-StuffAndThings@mod.gov.uk (MULTIUSER)](mailto:Analysis-StuffAndThings@mod.gov.uk)
 
 [Back to top](#project-title)
